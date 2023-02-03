@@ -1,0 +1,137 @@
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+@import './node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+.navbar {
+    background-color: purple;
+}
+
+.nav-link {
+    color: white;
+    margin-right: 10px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+header {
+    background-color: purple;
+    color: white !important;
+}
+
+.wave-one {
+    width: 100%;
+}
+
+.play {
+    width: auto;
+    height: 30px;
+}
+
+.onw {
+    width: 90px;
+}
+
+.btnpurple {
+    background-color: purple;
+}
+
+.btnpurple:hover {
+    color: black;
+    background-color: purple;
+
+}
+
+.owl-night {
+    background-color: #feee;
+}
+
+.roundedimg {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.hee {
+    border-left: 5px solid purple;
+    padding-left: 15px;
+}
+
+.imgcontrol {
+    width: 80px;
+}
+
+.onebyimg img{
+    transform: translateY(0) !important;
+    // transition: 1s;
+    transition-duration: 0.5s;
+}
+
+.onebyimg img:hover {
+    transform: translateY(-10px) !important;
+    cursor: pointer;
+}
+
+.betpad {
+    padding-bottom: 80px;
+}
+
+.wave-two {
+    width: 100%;
+    color: purple;
+}
+
+.footer {
+    background-color: purple;
+    color: white;
+}
+
+.h-ct {
+    height: 30px;
+}
+
+.winput {
+    outline: none;
+    border: 1px transparent;
+    border-radius: 5px;
+    
+}
+
+.sub {
+    display: block;
+    border: 1px solid white;
+    margin-top: 15px;
+    color: white;
+    background-color: purple;
+}
+
+@media screen and (max-width: 450px) {
+    .home-two {
+        width: 300px;
+    }
+
+    .demo-logo {
+        width: 150px;
+    }
+
+    .network {
+        width: 300px;
+
+    }
+
+    .imgcontrol {
+        width: 50px;
+        // padding: 0 10px;
+    }
+}
+
+.pay {
+    // width: 100px;
+    padding: 5px 8px;
+}
+
+.pay:hover {
+    background-color: transparent; 
+}
